@@ -53,7 +53,7 @@ for file in all_items:
         for key in keys:
             add_if_exist(key, item, arr)
 
-
+        #print(item)
         d['items'].append(item.copy())
 
 with open('out_file.json', 'w') as file:
